@@ -44,7 +44,8 @@ PRODUCT_PACKAGES += \
     LineageSDKOverlayDevice \
     LineageSettingsOverlayDevice \
     SettingsOverlayDevice \
-    SystemUIOverlayDevice
+    SystemUIOverlayDevice \
+    TargetWifiOverlay
 
 # QDCM
 PRODUCT_COPY_FILES += \
