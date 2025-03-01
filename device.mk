@@ -47,6 +47,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Overlay-RRO
 PRODUCT_PACKAGES += \
+    TargetSettingsProvider \
     TargetWifiOverlay
 
 # QDCM
