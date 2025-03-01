@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
     LineageSettingsOverlayDevice \
     SettingsOverlayDevice \
     SystemUIOverlayDevice \
+    TargetSettingsProvider \
     TargetWifiOverlay
 
 # QDCM
