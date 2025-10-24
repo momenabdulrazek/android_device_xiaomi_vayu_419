@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vayu.mk
+    $(LOCAL_DIR)/infinity_vayu.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_vayu-user \
+    infinity_vayu-userdebug \
+    infinity_vayu-eng
