@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) The Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -42,12 +42,16 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureOverlayDevice \
-    FrameworkResOverlayDevice \
-    LineageSDKOverlayDevice \
-    LineageSettingsOverlayDevice \
-    SettingsOverlayDevice \
-    SystemUIOverlayDevice
+   CarrierConfigOverlayVayu \
+   DialerOverlayVayu \
+   FrameworksResOverlayVayu \
+   NotchBarKillerVayu \
+   SettingsOverlayVayu \
+   SettingsProviderOverlayVayu \
+   SystemUIOverlayVayu \
+   TelephonyOverlayVayu \
+   TetheringConfigOverlayVayu \
+   WifiOverlayVayu
 
 # QDCM
 PRODUCT_COPY_FILES += \
