@@ -42,13 +42,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Overlays
-PRODUCT_PACKAGES += \
-    ApertureOverlayDevice \
-    FrameworkResOverlayDevice \
-    LineageSDKOverlayDevice \
-    LineageSettingsOverlayDevice \
-    SettingsOverlayDevice \
-    SystemUIOverlayDevice
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 # QDCM
 PRODUCT_COPY_FILES += \
