@@ -38,13 +38,9 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,xiaomi_msmnile,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_vayu)
 
 # Overlays
-PRODUCT_PACKAGES += \
-    ApertureOverlayDevice \
-    FrameworkResOverlayDevice \
-    LineageSDKOverlayDevice \
-    LineageSettingsOverlayDevice \
-    SettingsOverlayDevice \
-    SystemUIOverlayDevice
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 # QDCM
 PRODUCT_COPY_FILES += \
